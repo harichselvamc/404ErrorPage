@@ -8,39 +8,41 @@ header {
     font-weight: bold;
 }
 div {
-    width: 100%;
-    display: block;
+    width: 49%;
+    display: inline-block;
     vertical-align: top;
-    margin-bottom: 20px;
 }
 main {
     font-family: "Space Mono", monospace;
-    height: auto;
-    padding: 20px;
+    height: 450px;
+   
 }
 h2 {
-    font-size: 24px;
+    font-size: 39px;
     color: #333333;
-    line-height: 1.5;
+    line-height: 3;
     font-weight: bolder;
+   
 }
-
+.two {
+    padding: 121px;
+    margin-right: 20px;
+}
 p {
-    font-size: 18px;
+    font-size: 23px;
     text-transform: capitalize;
     line-height: 1.5;
     color: #333333;
 }
 img {
-    width: 100%;
-    float: none;
-    margin-bottom: 20px;
+    width: 500px;
+    float: right;
 }
 footer {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
-    margin-top: 40px;
+    margin-top: 100px;
     color: black;
 }
 
@@ -48,7 +50,7 @@ button.clickk {
     background-color: #ffffff;
     padding: 10px;
     margin-top: 10px;
-    border: solid #333333;
+    border: solid #333333    ;
     cursor: pointer;
     border-radius: 40px;
 }
@@ -66,6 +68,23 @@ button.clickk:hover {
 button.clickk:hover a {
     color: #ffffff;
 }
+
+
+.clickk{
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-social-links .social-link {
     display: inline-block;
@@ -88,27 +107,4 @@ button.clickk:hover a {
     text-decoration: none;
     background-color: #000000;
     color: #ffffff;
-}
-
-@media screen and (min-width: 768px) {
-    div {
-        width: 49%;
-        display: inline-block;
-    }
-    h2 {
-        font-size: 39px;
-        line-height: 3;
-    }
-    .two {
-        padding: 121px;
-        margin-right: 20px;
-    }
-    img {
-        width: 500px;
-        float: right;
-    }
-    footer {
-        font-size: 20px;
-        margin-top: 100px;
-    }
 }
