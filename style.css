@@ -15,14 +15,12 @@ div {
 main {
     font-family: "Space Mono", monospace;
     height: 450px;
-   
 }
 h2 {
     font-size: 39px;
     color: #333333;
     line-height: 3;
     font-weight: bolder;
-   
 }
 .two {
     padding: 121px;
@@ -50,7 +48,7 @@ button.clickk {
     background-color: #ffffff;
     padding: 10px;
     margin-top: 10px;
-    border: solid #333333    ;
+    border: solid #333333;
     cursor: pointer;
     border-radius: 40px;
 }
@@ -69,22 +67,9 @@ button.clickk:hover a {
     color: #ffffff;
 }
 
-
-.clickk{
+.clickk {
     border-radius: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-social-links .social-link {
     display: inline-block;
@@ -107,4 +92,61 @@ button.clickk:hover a {
     text-decoration: none;
     background-color: #000000;
     color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 16px;
+        height: auto;
+        margin: 20px;
+        text-align: center;
+    }
+    div {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 2;
+    }
+    .two {
+        padding: 20px;
+        margin-right: 0;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-bottom: 20px;
+    }
+    footer {
+        font-size: 16px;
+        margin-top: 250px;
+    }
+    button.clickk {
+        padding: 8px;
+        display: block;
+        margin: 0 auto;
+    }
+    button.clickk a {
+        font-size: 14px;
+    }
+    .footer-social-links {
+        text-align: center;
+    }
+    .footer-social-links .social-link {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .footer-social-links .social-link:last-child {
+        margin-right: 0;
+    }
 }
